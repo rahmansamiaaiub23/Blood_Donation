@@ -1,0 +1,37 @@
+﻿@model List<Blood_Donation.EF.Tables.Donor>
+
+
+<h1 class="text-xxl-center">All Donors</h1>
+<div>
+    <table class="mx-auto table" border="2">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Blood Group</th>
+                <th>Contact Number</th>
+                <th>City</th>
+                <th>Last Donation Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody class="flex-row gap-2">
+            @foreach (var donor in Model)
+            {
+                <tr class="m-2">
+                    <td>@donor.DonorId</td>
+                    <td>@donor.FullName</td>
+                    <td>@donor.BloodGroup</td>
+                    <td>@donor.ContactNo</td>
+                    <td>@donor.City</td>
+                    <td>@donor.LastDonationDate</td>
+                    <td>
+                        <btn class="m-2 bg-success p-2 rounded-2"> <a class="text-decoration-none text-white" href="/Donor/EditDonor/@donor.DonorId">Edit</a></btn>
+                        <btn class="m-2 bg-danger p-2 rounded-2"> <a class="text-decoration-none text-white" href="/Donor/RemoveDonor/@donor.DonorId">Delete</a></btn>
+                    </td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+</div>

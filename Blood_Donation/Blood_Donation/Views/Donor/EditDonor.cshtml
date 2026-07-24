@@ -1,0 +1,43 @@
+﻿@model Blood_Donation.EF.Tables.Donor
+
+@Html.ValidationSummary()
+@{
+    bool checkBloodGroup(string bloodGp)
+    {
+        if (Model.BloodGroup == bloodGp)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+<h1 class="text-xxl-center">Edit Info</h1>
+<form method="post">
+    <input type="hidden" name="DonorId" value="@Model.DonorId" />
+    <br>
+    Full Name : <br />
+    <input type="text" class="form-control" name="FullName" value="@Model.FullName" placeholder="Full Name" />
+    <br>
+    Blood Group: <br />
+    <select name="BloodGroup" class="form-control">
+        <option value="A+" selected="@checkBloodGroup("A+")">A+</option>
+        <option value="A-" selected="@checkBloodGroup("A-")">A-</option>
+        <option value="B+" selected="@checkBloodGroup("B+")">B+</option>
+        <option value="B-" selected="@checkBloodGroup("B-")">B-</option>
+        <option value="AB+" selected="@checkBloodGroup("AB+")">AB+</option>
+        <option value="AB-" selected="@checkBloodGroup("AB-")">AB-</option>
+        <option value="O+" selected="@checkBloodGroup("O+")">O+</option>
+        <option value="O-" selected="@checkBloodGroup("O-")">O-</option>
+    </select>
+    <br>
+    Contact No: <br />
+    <input type="text" class="form-control" name="ContactNo" value="@Model.ContactNo" placeholder="Contact No" />
+    City: <br />
+    <br><input type="text" class="form-control" name="City" value="@Model.City" placeholder="City" />
+    Last Donation Date: <br />
+    <br><input type="date" class="form-control" name="LastDonationDate" value="@(Model.LastDonationDate.ToString("yyyy-MM-dd"))" />
+    <br><input type="submit" value="Save" class="btn btn-primary" />
+</form>
