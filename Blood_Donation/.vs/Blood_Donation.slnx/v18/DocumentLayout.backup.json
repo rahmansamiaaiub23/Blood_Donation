@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\Blood_donation\\Blood_Donation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\views\\details\\donationcounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\views\\details\\donationcounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\views\\details\\totalvolume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\views\\details\\totalvolume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\views\\details\\lastdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\views\\details\\lastdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\views\\details\\bloodgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\views\\details\\bloodgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\views\\donor\\removedonor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\views\\donor\\removedonor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,24 +58,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TotalVolume.cshtml",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\TotalVolume.cshtml",
+              "RelativeDocumentMoniker": "Blood_Donation\\Views\\Details\\TotalVolume.cshtml",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\TotalVolume.cshtml",
+              "RelativeToolTip": "Blood_Donation\\Views\\Details\\TotalVolume.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T11:45:19.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DonationCounts.cshtml",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\DonationCounts.cshtml",
+              "RelativeDocumentMoniker": "Blood_Donation\\Views\\Details\\DonationCounts.cshtml",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\DonationCounts.cshtml",
+              "RelativeToolTip": "Blood_Donation\\Views\\Details\\DonationCounts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T11:44:43.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LastDonation.cshtml",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\LastDonation.cshtml",
+              "RelativeDocumentMoniker": "Blood_Donation\\Views\\Details\\LastDonation.cshtml",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\LastDonation.cshtml",
+              "RelativeToolTip": "Blood_Donation\\Views\\Details\\LastDonation.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T11:42:49.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BloodGroup.cshtml",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\BloodGroup.cshtml",
+              "RelativeDocumentMoniker": "Blood_Donation\\Views\\Details\\BloodGroup.cshtml",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Details\\BloodGroup.cshtml",
+              "RelativeToolTip": "Blood_Donation\\Views\\Details\\BloodGroup.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T11:35:45.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailsController.cs",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Controllers\\DetailsController.cs",
+              "RelativeDocumentMoniker": "Blood_Donation\\Controllers\\DetailsController.cs",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Controllers\\DetailsController.cs",
+              "RelativeToolTip": "Blood_Donation\\Controllers\\DetailsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T11:32:36.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RemoveDonor.cshtml",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Donor\\RemoveDonor.cshtml",
               "RelativeDocumentMoniker": "Blood_Donation\\Views\\Donor\\RemoveDonor.cshtml",
               "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Donor\\RemoveDonor.cshtml",
               "RelativeToolTip": "Blood_Donation\\Views\\Donor\\RemoveDonor.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-24T11:24:11.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "EditDonor.cshtml",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Donor\\EditDonor.cshtml",
               "RelativeDocumentMoniker": "Blood_Donation\\Views\\Donor\\EditDonor.cshtml",
@@ -63,12 +148,11 @@
               "RelativeToolTip": "Blood_Donation\\Views\\Donor\\EditDonor.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-24T11:13:31.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T11:13:31.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DonorController.cs",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Controllers\\DonorController.cs",
               "RelativeDocumentMoniker": "Blood_Donation\\Controllers\\DonorController.cs",
@@ -76,12 +160,11 @@
               "RelativeToolTip": "Blood_Donation\\Controllers\\DonorController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAIwEEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T10:43:20.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T10:43:20.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "AddDonor.cshtml",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Donor\\AddDonor.cshtml",
               "RelativeDocumentMoniker": "Blood_Donation\\Views\\Donor\\AddDonor.cshtml",
@@ -89,12 +172,11 @@
               "RelativeToolTip": "Blood_Donation\\Views\\Donor\\AddDonor.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-24T10:55:56.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T10:55:56.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Views\\Donor\\Index.cshtml",
               "RelativeDocumentMoniker": "Blood_Donation\\Views\\Donor\\Index.cshtml",
@@ -102,12 +184,11 @@
               "RelativeToolTip": "Blood_Donation\\Views\\Donor\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-24T10:47:37.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T10:47:37.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\appsettings.json",
               "RelativeDocumentMoniker": "Blood_Donation\\appsettings.json",
@@ -119,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Program.cs",
               "RelativeDocumentMoniker": "Blood_Donation\\Program.cs",
@@ -127,8 +208,7 @@
               "RelativeToolTip": "Blood_Donation\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T10:21:55.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T10:21:55.22Z"
             }
           ]
         }

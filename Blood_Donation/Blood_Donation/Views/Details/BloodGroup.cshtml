@@ -1,0 +1,41 @@
+﻿@model List<Blood_Donation.EF.Tables.Donor>
+
+<h2>Donors By Blood Group</h2>
+
+@{
+    var bloodGroups = new[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" };
+    string selectedGroup = ViewBag.SelectedGroup;
+}
+
+<form method="get">
+    <select name="bloodGroup" class="form-control">
+        <option value="">Select Blood Group</option>
+        @foreach (var bg in bloodGroups)
+        {
+            <option value="@bg" selected="@(selectedGroup == bg)">@bg</option>
+        }
+    </select>
+    <input type="submit" value="Filter" class="btn btn-primary" />
+    <br />
+    <br />
+</form>
+
+@if (Model.Count != 0)
+{
+    <table class="table table-bordered">
+        <tr><th>Full Name</th><th>Blood Group</th><th>Contact No</th><th>City</th></tr>
+        @foreach (var donor in Model)
+        {
+            <tr>
+                <td>@donor.FullName</td>
+                <td>@donor.BloodGroup</td>
+                <td>@donor.ContactNo</td>
+                <td>@donor.City</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No data Found</p>
+}

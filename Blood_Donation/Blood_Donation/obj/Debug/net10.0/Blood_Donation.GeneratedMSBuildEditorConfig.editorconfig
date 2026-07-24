@@ -31,6 +31,22 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/Blood_donation/Blood_Donation/Blood_Donation/Views/Details/BloodGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xCbG9vZEdyb3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blood_donation/Blood_Donation/Blood_Donation/Views/Details/DonationCounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xEb25hdGlvbkNvdW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blood_donation/Blood_Donation/Blood_Donation/Views/Details/LastDonation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xMYXN0RG9uYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blood_donation/Blood_Donation/Blood_Donation/Views/Details/TotalVolume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xUb3RhbFZvbHVtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Blood_donation/Blood_Donation/Blood_Donation/Views/Donor/AddDonor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JcQWRkRG9ub3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
