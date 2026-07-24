@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Blood_donation\\Blood_Donation\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|d:\\blood_donation\\blood_donation\\blood_donation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1D635C-2910-744F-F3D0-AD619459F028}|Blood_Donation\\Blood_Donation.csproj|solutionrelative:blood_donation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\appsettings.json",
+              "RelativeDocumentMoniker": "Blood_Donation\\appsettings.json",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\appsettings.json",
+              "RelativeToolTip": "Blood_Donation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-24T10:22:01.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Program.cs",
+              "RelativeDocumentMoniker": "Blood_Donation\\Program.cs",
+              "ToolTip": "D:\\Blood_donation\\Blood_Donation\\Blood_Donation\\Program.cs",
+              "RelativeToolTip": "Blood_Donation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:21:55.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
